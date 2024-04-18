@@ -31,6 +31,7 @@ public interface Shape {
     static SplineShape.Builder spline() {
         return new SplineShape.Builder();
     }
+    static TextShape.Builder text() {return new TextShape.Builder();}
 
     int id();
 
